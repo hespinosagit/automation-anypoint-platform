@@ -31,3 +31,6 @@ jobs:
 
       - name: Print Account Info
         run: anypoint-cli-v4 account:user:describe
+
+      - name: List All Application
+        run: runtime-mgr:application:list --environment Sandbox -o json
