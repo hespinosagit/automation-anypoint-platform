@@ -33,4 +33,4 @@ jobs:
         run: anypoint-cli-v4 account:user:describe
 
       - name: List All Application
-        run: runtime-mgr:application:list --environment Sandbox -o json
+        run: anypoint-cli-v4 runtime-mgr:application:list --environment Sandbox --output json
